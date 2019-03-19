@@ -1,21 +1,29 @@
 header {
-    background-color: red;
+    background-color:#0099ff;
+    height:30px;
+    font-family:comic;
+    text-align:center;
 }
 
 #nav {
-    background-color: blue;
+    background-color: #33ccff;
+    height:50px;
 }
 
 .article {
-    background-color: aqua;
+    background-color: #ccffff;
+    height:500px;
 }
 
 aside {
-    background-color: coral;
+    background-color: #66ccff;
+    height:500px;	
 }
 
 .footer {
-    background-color: fuchsia;
+    background-color: #00ff99;
+    border:1px solid black;
+    border-radius: 10px; 
 }
 
 .main {
@@ -27,4 +35,25 @@ aside {
 }
 .article {
     flex: 2;
+}
+p, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+list-style-type-none;
+}
+nav li{
+display:inline-block;
+width:33%;
+}
+a:hover{
+background:pink;}
+a{
+color:green;
+display:nline-block;
+width:33%;
 }
