@@ -4,7 +4,7 @@ try{
     $user = 'root';
     $password = '';
     $db = new PDO($dsn, $user, $password);
-$db->exec("UPDATE zwierzeta_domowe set nazwa='reksio' where id=3");
+$db->exec("UPDATE zwierzeta_domowe set nazwa='Reksio' where id=3");
     }
 
 catch (PDOException $e) {
