@@ -1,0 +1,93 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position:absolute;
+    font-family: sans-serif;
+    background-color:gray;
+    padding-top: 10px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+body{
+  font-family: sans-serif;
+  background-color: 	#FFC0CB;
+}
+nav {
+  position: fixed;
+  top: 0;
+}
+a{
+  font-weight:bold;
+  font-size: 21px;
+}
+.kontener{
+  width: 406px;
+  max-width: 406px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+#login{
+  padding: 0px 25px 25px;
+  background: #fff;
+    -moz-border-radius: 5px;
+    display: table;
+    position:static;
+}
+#login.head{
+  margin-bottom: 20px;
+}
+#login.head h3{
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#login.heada p{
+  color: #8F8F8F;
+  font-size: 14px;
+  font-weight: 300;
+}
+#login.inputs{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#login.inputs label{
+  color: #8F8F8F;
+  font-size: 12px;
+  font-weight: 300;;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+#login .inputs input[type=email]:focus,input[type=password]:focus{
+  background:#F5F5F5;
+  font-size:12px;
+  -moz-border-radious: 3px;
+  -webkit-border-radious:3px;
+  border: 2px;
+  padding: 13px 10px;
+  width: 330px;
+  margin-bottom: 20px;
+  clear: both;
+}
+#login .inputs input[type=email],input[type=password]{
+  background:#fff;
+   outline: none;
+}
+#login .inputs #sub{
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 0;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  border:1px solid #737b8d;
+}

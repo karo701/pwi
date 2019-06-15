@@ -1,0 +1,87 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position:absolute;
+    font-family: sans-serif;
+    background-color:gray;
+    padding-top: 10px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.error{
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 50px; /* wysokość stopki */
+  padding: 0;
+  text-align: center;
+  background-color: 	#FFC0CB;
+  background-position: center;
+  font-family: sans-serif;
+}
+a{
+  font-weight:bold;
+  font-size: 21px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  background-color: #D3D3D3;
+  color: #FF69B4;
+}
+.kontakt{
+  margin-top: 100px;
+  color: #000;
+  text-transform: uppercase;
+}
+.kontakt h1{
+  font-size: 46px;
+  line-height: 30px;
+}
+.kontakt h2{
+  font-weight: bold;
+  font-size: 19px;
+}
+form{
+  margin-top: 50px;
+}
+.form-cont{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position:absolute;
+    font-family: sans-serif;
+    background-color:gray;
+    padding-top: 10px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+body{
+  margin: 0;
+  margin-bottom: 50px; /* wysokość stopki */
+  padding: 0;
+  text-align: center;
+  background-color: #FFC0CB;
+  background-position: center;
+  font-family: sans-serif;
+}
+hr{
+  height: 10px;
+  background: gray;
+  border: 0px;
+}
+a{
+  font-weight:bold;
+  font-size: 21px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  background-color: #778899;
+  color: #FF69B4;
+}
